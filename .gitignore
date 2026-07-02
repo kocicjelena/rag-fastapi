@@ -1,7 +1,11 @@
-# Ignore additional files not in .gitignore
+# Ignore 
 tests/
 data/
 *.csv
+rag/
+.venv/
+__pycache__/
+.env
 
 # Un-ignore files that are in .gitignore (useful for build outputs)
 !dist/
