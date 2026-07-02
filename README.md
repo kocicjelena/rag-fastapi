@@ -1,7 +1,7 @@
 
 
 
-# RAG (Retrieval-Augmented Generation) in development
+## RAG (Retrieval-Augmented Generation) in development
 Classic RAG pipeline plan: 
 Query → Embedding → Vector Search → Retrieved Context → LLM Answer
 
@@ -15,4 +15,4 @@ fastapi cloud env set --secret API_KEY "your-api-key"
 pip install fastapi uvicorn
 uvicorn main:app --reload
 
-Tutorials on https://realpython.com/
+## Tutorials on https://realpython.com/
