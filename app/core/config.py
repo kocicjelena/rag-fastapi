@@ -15,7 +15,7 @@ class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=".env", env_ignore_empty=True, extra="ignore"
     )
-    SQLALCHEMY_DATABASE_URL: str = "postgresql://username:password@ep-dawn-hat-asy4fkao-pooler.c-4.eu-central-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+    SQLALCHEMY_DATABASE_URL: str = "postgresql://username:password@...."
     API_V1_STR: str = "/api/v1"
     PROJECT_NAME: str = "RAG API"
     SECRET_KEY: str = "changethis"
