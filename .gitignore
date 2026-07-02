@@ -1,0 +1,7 @@
+# Ignore additional files not in .gitignore
+tests/
+data/
+*.csv
+
+# Un-ignore files that are in .gitignore (useful for build outputs)
+!dist/

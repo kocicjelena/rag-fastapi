@@ -1,0 +1,30 @@
+{
+  "servers": {
+    "mcpServers": {
+     "Neon": {
+      "type": "http",
+      "url": "https://mcp.neon.tech/mcp",
+      "headers": {
+        "Authorization": "Bearer napi_l285zz7mhj81te70gppta2qe7hppbj7ihpoagnz5j5d4eh0zlt27zv5wohrtq03r"
+      }
+    }
+  },
+    "myNodeServer": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-postgres",
+        "postgresql://neondb_owner:npg_8PCYuR9XclnJ@ep-dawn-hat-asy4fkao.c-4.eu-central-1.aws.neon.tech/neondb?sslmode=require"
+      ]
+    },
+    "myPythonServer": {
+      "command": "/path/to/venv/bin/python",
+      "args": [
+        "/absolute/path/to/your/server.py"
+      ],
+      "env": {
+        "API_KEY": "napi_l285zz7mhj81te70gppta2qe7hppbj7ihpoagnz5j5d4eh0zlt27zv5wohrtq03r"
+      }
+    }
+  }
+}
