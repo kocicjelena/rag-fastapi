@@ -5,7 +5,7 @@
       "type": "http",
       "url": "https://mcp.neon.tech/mcp",
       "headers": {
-        "Authorization": "Bearer napi_l285zz7mhj81te70gppta2qe7hppbj7ihpoagnz5j5d4eh0zlt27zv5wohrtq03r"
+        "Authorization": "Bearer apikey"
       }
     }
   },
@@ -14,7 +14,7 @@
       "args": [
         "-y",
         "@modelcontextprotocol/server-postgres",
-        "postgresql://neondb_owner:npg_8PCYuR9XclnJ@ep-dawn-hat-asy4fkao.c-4.eu-central-1.aws.neon.tech/neondb?sslmode=require"
+        "postgresql://....?sslmode=require"
       ]
     },
     "myPythonServer": {
@@ -23,7 +23,7 @@
         "/absolute/path/to/your/server.py"
       ],
       "env": {
-        "API_KEY": "napi_l285zz7mhj81te70gppta2qe7hppbj7ihpoagnz5j5d4eh0zlt27zv5wohrtq03r"
+        "API_KEY": "..."
       }
     }
   }
